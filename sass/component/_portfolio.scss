@@ -1,0 +1,18 @@
+@import "../mixin/mixin";
+/*portfolio part start*/
+#portfolio{ 
+    padding: 80px 0 0 0;
+    background: #fbfaf8;
+    .title{ 
+        h2{ 
+            @include title_head;
+        }
+        p{ 
+            @include title_para
+        }
+    }
+    .port_img{ 
+        margin-top: 30px;
+    }
+}
+/*portfolio part end*/

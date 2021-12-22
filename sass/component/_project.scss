@@ -1,0 +1,177 @@
+@import "../mixin/mixin";
+/*project part start*/
+#project{ 
+    .item-down{ 
+        margin-bottom: 30px;
+    }
+    padding: 80px 0;
+    .title{ 
+        h2{ 
+            @include title_head;
+        }
+        p{ 
+            @include title_para;
+        }
+    }
+    .btn_main{ 
+        margin-top: 10px;
+        margin-bottom: 30px;
+        .pro_btn{ 
+            button{
+                margin: 0 5px;
+                border: 1px solid #ebebeb;
+                padding: 10px 30px;
+                background-color: transparent;
+                color: #9b9b9b;
+                border-radius: 4px;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                -ms-border-radius: 4px;
+                -o-border-radius: 4px;
+                transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+                &:hover{ 
+                    background-color: #998675;
+                    color: white;
+                    border:1 px solid #998675;
+                }
+}
+        }
+    }
+    .pro_item{ 
+       &:hover h4{ 
+           color: white !important;
+       }
+       &:hover p{ 
+           color:#c7b299 !important;
+       }
+        .pro_img{ 
+            position: relative;
+            .pro_overlay{
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.5);
+                transform: scale(0);
+                -webkit-transform: scale(0);
+                -moz-transform: scale(0);
+                -ms-transform: scale(0);
+                -o-transform: scale(0);
+                transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+                ul
+{
+                    position: absolute;
+                    top: 50%;
+                    left: 47%;
+                    transform: translate(-50%, -50%);
+                    -webkit-transform: translate(-50%, -50%);
+                    -moz-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    -o-transform: translate(-50%, -50%);
+                    li{ 
+                        margin: 0px 5px;
+                        i{
+                            transition: all linear 0.2s;
+                            -webkit-transition: all linear 0.2s;
+                            -moz-transition: all linear 0.2s;
+                            -ms-transition: all linear 0.2s;
+                            -o-transition: all linear 0.2s;
+                            font-size: 28px;
+                            color: white;
+                            &:hover{ 
+                                color: #c7b299;
+                            }
+}
+                    }
+}
+
+    
+            }
+        }
+        .pro_text{
+            padding: 29px 27px 27px 27px;
+            background-color: #fbfaf8;
+            transition: all linear 0.3s;
+            -webkit-transition: all linear 0.3s;
+            -moz-transition: all linear 0.3s;
+            -ms-transition: all linear 0.3s;
+            -o-transition: all linear 0.3s;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                top: -8%;
+                left: 3%;
+                height: 21px;
+                width: 21px;
+                background: #fbfaf8;
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+}
+            h4
+             {
+                color: #c7b299;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 500;
+                font-size: 20;
+                transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+}
+            p{ 
+                color: #d1d1d1;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+            }
+        }
+    }
+    .pro_item:hover .pro_overlay{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}  
+.pro_item:hover .pro_text::after,
+.pro_item:hover .pro_text
+{ 
+    background-color: #362f2d;
+}
+.proj_btn{ 
+    margin-top: 41px;
+    button{ 
+        @include waxom_btn;
+        a{ 
+            @include btn_ankor
+        }
+    }
+}
+
+}
+/*project part end*/

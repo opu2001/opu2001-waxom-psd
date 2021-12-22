@@ -1,0 +1,39 @@
+/*last part start*/ 
+#last{ 
+    padding: 45px 0;
+    background: #111111;
+    .left_list{ 
+        ul{
+            li{ 
+                display: inline-block;
+                padding: 0 2px;
+                p{ 
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 300;
+                    font-size: 13px;
+                    color: #555555;
+                    span{ 
+                        color: #959595;
+                    }
+                }
+            }
+        }
+    }
+    .right_text{ 
+        ul{ 
+            li{ 
+                display: inline-block;
+                padding: 0 2px;
+                p{ 
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 300;
+                    font-size: 13px;
+                    color: #555555;
+                    span{ 
+                        color: #959595;
+                    }
+                }
+            }
+        }
+    }
+}

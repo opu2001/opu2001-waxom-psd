@@ -1,0 +1,45 @@
+@import "../mixin/mixin";
+/*banner part start*/ 
+#banner{ 
+    padding: 300px 0;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    z-index: 1;
+    &::after{ 
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: -1;
+    }
+    .banner_main{ 
+        .banner_text{ 
+            h2{ 
+                font-weight: 500;
+                font-size: 36px;
+                font-family: $font_rel;
+            }
+            h1{ 
+                @include ban_head1;
+            }
+            P{ 
+                @include ban_para;
+            }
+        }
+        .banner_btn{ 
+            margin-top: 50px;
+            button{ 
+                @include waxom_btn;
+                a{ 
+                    @include btn_ankor;
+                }
+            }
+        }
+    }
+}
+/*banner part end*/

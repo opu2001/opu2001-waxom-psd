@@ -1,0 +1,147 @@
+@import "../mixin/mixin";
+/*recent part start*/
+#recent{ 
+    padding: 80px 0 140px 0;
+    .recent_head{ 
+        position: relative;
+        .pre{ 
+            position: absolute;
+            bottom: -20%;
+            left: 51%;
+            font-size: 20px;
+            color: #8c8c8c;
+            &:hover{ 
+                color: #c7b299;
+            }
+        }
+        .next{ 
+            position: absolute;
+            right: 50%;
+            bottom: -20%;
+            font-size: 20px;
+            color: #8c8c8c;
+            &:hover{ 
+                color: #c7b299;
+            }
+        }
+    }
+    .col-lg-4{ 
+        width: 95% !important;
+    }
+    .title{ 
+        h2{ 
+            @include title_head;
+        }
+        p{ 
+            @include title_para;
+        }
+    }
+    .recent_item{ 
+        position: relative;
+        .recent_img{ 
+            position: relative;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    background: rgba(0,0,0,0.5);
+                    transform: scale(0);
+                    -webkit-transform: scale(0);
+                    -moz-transform: scale(0);
+                    -ms-transform: scale(0);
+                    -o-transform: scale(0);
+                    transition: all linear 0.3s;
+                    -webkit-transition: all linear 0.3s;
+                    -moz-transition: all linear 0.3s;
+                    -ms-transition: all linear 0.3s;
+                    -o-transition: all linear 0.3s;
+}
+            }
+
+            .recent_list{ 
+                position: absolute;
+                top: 5%;
+                left: 0%;
+                ul{ 
+                    .rece_date{ 
+                       @include rece_list;
+                       background-color: #363636;
+                    }
+                    .rece_mon{ 
+                       @include rece_list;
+                       background-color: #252525;
+                       border-bottom-left-radius: 3px;
+                       border-bottom-right-radius: 3px;
+                    }
+                }
+            }
+            .recent_text{
+                border-left: 1px solid #f8f8f8;
+                border-right: 1px solid #f8f8f8;
+                border-bottom: 1px solid #f8f8f8;
+                padding: 30px 30px;
+                transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+                h4
+{
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #747474;
+                    transition: all linear 0.3s;
+                    -webkit-transition: all linear 0.3s;
+                    -moz-transition: all linear 0.3s;
+                    -ms-transition: all linear 0.3s;
+                    -o-transition: all linear 0.3s;
+}
+                p{
+                    color: #8c8c8c;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 26px;
+                    transition: all linear 0.3s;
+                    -webkit-transition: all linear 0.3s;
+                    -moz-transition: all linear 0.3s;
+                    -ms-transition: all linear 0.3s;
+                    -o-transition: all linear 0.3s;
+}
+                h3{ 
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: #c7b299;
+                }
+            }
+        }
+        .recent_item:hover .recent_img::after{
+            transform: scale(1);
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -ms-transform: scale(1);
+            -o-transform: scale(1);
+}
+.recent_item:hover .rece_date{ 
+    background-color: #c7b299 !important;
+}
+.recent_item:hover .rece_mon{ 
+    background-color: #a48d72 !important;
+}
+.recent_item:hover .recent_text{
+    background-color: #362f2d;
+    border: transparent;
+}
+.recent_item:hover .recent_text h4{ 
+    color: #c7b299;
+}
+.recent_item:hover .recent_text p{ 
+    color: #868281;
+}
+    }
+/*recent part end*/

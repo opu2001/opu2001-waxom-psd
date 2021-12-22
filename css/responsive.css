@@ -1,0 +1,319 @@
+  @media (max-width: 575.98px) {
+
+    .navbar-nav{ 
+        background-color: #534f4f;
+        text-align: center;
+    } 
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        border: 2px solid Red;
+        box-shadow: 0 0 0 transparent;
+    }
+    #banner .banner_main .banner_text h2 {
+        font-weight: 500;
+        font-size: 24px;
+        font-family: "Raleway", sans-serif;
+    }
+    #banner .banner_main .banner_text h1 {
+        font-size: 29px;
+    }
+    #banner .banner_main .banner_text P {
+        font-size: 15px;
+    }
+    .back2top{ 
+        right: 25px;
+    }
+    #service .ser_item h3 {
+        font-size: 16px;
+    }
+    #service .ser_item p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    #service .ser_item::after {
+        bottom: -9%;
+    }
+    .ser_three{ 
+        margin-top: 25px;
+    }
+    #portfolio .title h2 {
+        font-size: 20px;
+    }
+    #portfolio .title p {
+        font-size: 12px;
+    }
+    #purcase .pur_text h2 {
+        font-size: 17px;
+    }
+    #purcase .pur_text p {
+        font-size: 14px;
+        padding: 6px 0;
+    }
+    #purcase .pur_btn button {
+        padding: 12px 20px;
+    }
+    #project .title p {
+        font-size: 12px;
+    }
+    #project .btn_main .pro_btn button {
+        margin: 0 0px;
+        padding: 6px 4px;
+        font-size: 12px;
+    }
+    #project .pro_item .pro_img .pro_overlay ul {
+        left: 43%;
+    }
+    #project .pro_item .pro_img .pro_overlay ul li i {
+        font-size: 22px;
+    }
+    #project .pro_item .pro_text::after {
+        top: -5%;
+        left: 7%;
+    }
+    #project .pro_item .pro_text p {
+        font-size: 13px;
+    }
+    #video .video_main .video_text h2 {
+        font-size: 26px;
+    }
+    #video .video_main .video_text p {
+        font-size: 14px;
+    }
+    #video {
+        padding: 200px 0 250px 0;
+    }
+    #device .device_text h2 {
+        font-size: 24px;
+    }
+    #device .device_text p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    #device .devi_list table tr td span {
+        font-size: 11px;
+        margin-left: 14px;
+    }
+    #counter .counter_item span {
+        font-size: 20px;
+    }
+    #counter .counter_item i {
+        font-size: 33px;
+    }
+    #counter .counter_item p {
+        font-size: 11px;
+    }
+    #recent .recent_item .recent_text p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    #recent .title p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    #recent .recent_item {
+        margin-left: 5%;
+    }
+    #recent .recent_head .pre, 
+    #recent .recent_head .next{
+        bottom: -9%;
+    }
+    #footer .footer_four .footer_title h3 {
+        font-size: 22px;
+    }
+    #footer .footer_three .item_three p {
+        font-size: 11px;
+    }
+    #footer .footer_three .item_three {
+        padding: 14px 0;
+    }
+    #last .left_list ul li p {
+        font-size: 11px;
+    }
+    #footer .footer_two .footer_title h3 {
+        margin-top: 8%;
+    }
+ } 
+
+@media (min-width:576px) and (max-width: 767.98px) { 
+
+    .navbar-nav{ 
+        background-color: #534f4f;
+        text-align: center;
+    } 
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        border: 2px solid Red;
+        box-shadow: 0 0 0 transparent;
+    }
+    #banner .banner_main .banner_text h1 {
+        font-size: 45px;
+    }
+    #banner .banner_main .banner_text h2 {
+        font-size: 33px;
+    }
+    .ser_three{ 
+        margin-top: 35px;
+    }
+    #service .ser_item::after {
+        bottom: -12%;
+    }
+    #purcase .pur_btn button {
+        padding: 12px 21px !important;
+    }
+    #portfolio .title p {
+        font-size: 15px;
+    }
+    #purcase .pur_text h2 {
+        font-size: 27px;
+    }
+    #project .btn_main .pro_btn button {
+        margin: 0 4px;
+        padding: 15px 11px;
+        font-size: 15px;
+    }
+    #project .pro_item .pro_text::after {
+        top: -7%;
+        left: 6%;
+    }
+    #project .pro_item .pro_text h4 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    #device .devi_list table tr td span {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    #counter .counter_item span {
+        font-size: 31px;
+    }
+    #counter .counter_item i {
+        font-size: 38px;
+    }
+    #counter .counter_item p {
+        font-size: 8px;
+    }
+   
+    #recent .recent_item .recent_text p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    #recent .recent_head .pre, 
+    #recent .recent_head .next{
+        bottom: -13%;
+    }
+    #footer .footer_two .footer_title h3 {
+        margin-top: 8%;
+    }
+    #last .right_text ul li p {
+        font-size: 10px;
+    }
+    #footer .footer_two .item_two p {
+        font-size: 12px;
+    }
+   } 
+
+
+
+
+
+
+
+
+ @media (min-width:768px) and (max-width: 991.98px) { 
+
+   .navbar-nav{ 
+        background-color: #534f4f;
+        text-align: center;
+    } 
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        border: 2px solid Red;
+        box-shadow: 0 0 0 transparent;
+    }
+    #service .ser_item h3 {
+        font-size: 17px;
+    }
+    #service .ser_item p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    #purcase .pur_text h2 {
+        font-size: 24px;
+    }
+    #purcase .pur_text p {
+        font-size: 17px;
+    }
+    #purcase .pur_btn button {
+        padding: 15px 25px;
+    }
+    #project .btn_main .pro_btn button {
+        padding: 10px 26px;
+    }
+    #project .pro_item .pro_text h4 {
+        font-size: 15px;
+    }
+    #project .pro_item .pro_text::after {
+        left: 7%;
+    }
+    #counter .counter_item p {
+        font-size: 12px;
+    }
+    #device .device_text {
+        margin-top: 35px;
+    }
+    #device .device_text h2 {
+        font-size: 28px;
+        padding-bottom: 5px;
+    }
+    #device .device_text p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    #recent .recent_item .recent_text p {
+        font-size: 11px;
+        line-height: 25px;
+    }
+    #device .devi_list table tr td span {
+        font-size: 10px;
+        margin-left: 11px;
+    }
+    #footer .footer_one .one_text p {
+        font-size: 11px;
+    }
+    #footer .footer_title h3{ 
+        font-size: 21px !important;
+    }
+    .footer_logo{ 
+        margin-top: -1%;
+    }
+  }
+
+
+
+ @media (min-width:992px) and (max-width: 1199.98px) { 
+
+    #purcase .pur_text h2 {
+        font-size: 24px;
+    }
+    #purcase .pur_text p {
+        font-size: 17px;
+    }
+    #device .devi_list table tr td span {
+        font-size: 13px;
+    }
+    .pur_btn{ 
+        text-align: end;
+    }
+    .footer_logo{ 
+        margin-top: -2%;
+    }
+
+  }
+ @media (min-width:1200px) and (max-width: 1399.98px) { 
+    .pur_btn{ 
+        text-align: end;
+     }
+  } 

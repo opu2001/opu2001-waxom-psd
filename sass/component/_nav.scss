@@ -1,0 +1,56 @@
+@import "../mixin/mixin";
+/*nav part start*/
+ .menu_ng{
+     background: #44423f;
+     animation: selim 2s;
+     -webkit-animation: selim 2s;
+}
+@keyframes selim{ 
+    from{  
+        margin-top: -50px;
+    }
+    to{ 
+        margin-top: 0px;
+    }
+}
+.menu_bar{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 44;
+    padding: 15px 0;
+    ul{ 
+        li{ 
+            margin: 0 5px;
+            a{ 
+                @include nav_ankor;
+                &:hover{ 
+                     color: #c7b299 !important; 
+                    }
+            }
+        }
+    }
+}
+/*nav part end*/ 
+/*back to top start*/ 
+.back2top{ 
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 22;
+    i{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        line-height: 40px;
+        color: white;
+        background: red;
+        text-align: center;
+        cursor: pointer;
+}
+}

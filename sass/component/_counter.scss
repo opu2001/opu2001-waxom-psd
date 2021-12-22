@@ -1,0 +1,39 @@
+/*counter part start*/ 
+#counter{ 
+    padding: 70px 0 90px 0;
+    background: linear-gradient(to left,#4d3327 0%,#2e221d 100%);
+    font-family: 'Montserrat', sans-serif;
+    .counter_item{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            height: 2px;
+            width: 30px;
+            background: white;
+            left: 50%;
+            bottom: -18%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+} 
+        i{ 
+            font-size: 45px;
+            color: #c7b299;
+            display: block;
+        }
+        span{ 
+            font-size: 48px;
+            color: white;
+            font-weight: 200;
+        }
+        p{ 
+            font-size: 14px;
+            color: #c7b299;
+            font-weight: 300;
+        }
+    }
+}
+/*counter part end*/

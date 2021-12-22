@@ -1,0 +1,53 @@
+@import "../mixin/mixin";
+/*device part start*/
+#device{ 
+    padding: 70px 0 0 0;
+    .device_text{ 
+        margin-top: 110px;
+        h2{ 
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            font-size: 30px;
+            color: #555555;
+            padding-bottom: 15px;
+        }
+        p{ 
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            color: #8c8c8c;
+        }
+    }
+    .devi_list{ 
+        table{ 
+            tr{ 
+                td{ 
+                    display: block;
+                    margin-bottom: 12px;
+                    i{
+                        height: 21px;
+                        width: 21px;
+                        color: white;
+                        text-align: center;
+                        line-height: 21px;
+                        font-size: 12px;
+                        background: #c7b299;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+}
+                    span{ 
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 300;
+                        font-size: 16px;
+                        color: #8c8c8c;
+                        margin-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

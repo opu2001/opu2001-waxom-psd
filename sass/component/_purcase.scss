@@ -1,0 +1,32 @@
+@import "../mixin/mixin";
+/*purcase part start*/
+#purcase{ 
+    background:linear-gradient(to left,#4b3226 0%,#261e1b 100%);
+     padding: 50px 0;
+     .pur_text{ 
+         h2{ 
+                color: white;
+                font-family: 'Raleway', sans-serif;
+                font-size: 28px;
+                font-weight: 400;
+                span{ 
+                    color: #bfab93;
+                }
+         }
+         p{ 
+            color: #615855;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 300;
+         }
+     }
+     .pur_btn{ 
+         button{ 
+             @include waxom_btn;
+             a{ 
+                 @include btn_ankor;
+             }
+         }
+     }
+}
+/*purcase part end*/

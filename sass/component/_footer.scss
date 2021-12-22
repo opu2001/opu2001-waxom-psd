@@ -1,0 +1,156 @@
+/*footer part start*/ 
+#footer{ 
+    padding: 75px 0;
+    background: #191919;
+    .footer_one{ 
+        .one_text{ 
+            padding: 20px 0;
+            p{ 
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 26px;
+                color: #555555;
+            }
+            span{ 
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                color: white;
+                font-size: 14px;
+                text-transform: capitalize;
+                i{ 
+                    color: white;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+    .footer_two{ 
+        .footer_title{ 
+            margin-bottom: 20px;
+            h3{ 
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+                color: white;
+                font-size: 24px;
+            }
+        }
+        .item_two_inner{ 
+            border-bottom: none !important;
+        }
+        .item_two{ 
+            padding: 20px 0 17px 0;
+            border-bottom: 1px solid #252525;
+            &:hover h5{ 
+                color: white;
+            }
+            &:hover p{ 
+                color: #c7b299;
+            }
+            h5{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                color: #363636;
+                font-size: 12px;
+                transition: all linear 0.2s;
+                -webkit-transition: all linear 0.2s;
+                -moz-transition: all linear 0.2s;
+                -ms-transition: all linear 0.2s;
+                -o-transition: all linear 0.2s;
+}
+            p{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                line-height: 20px;
+                font-size: 14px;
+                color: #555555;
+                transition: all linear 0.2s;
+                -webkit-transition: all linear 0.2s;
+                -moz-transition: all linear 0.2s;
+                -ms-transition: all linear 0.2s;
+                -o-transition: all linear 0.2s;
+}
+        }
+    }
+    .footer_three{ 
+        .footer_title{ 
+            h3{ 
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+                color: white;
+                font-size: 24px;
+            }
+        }
+        .item_three{ 
+            padding: 20px 0;
+            border-bottom: 1px solid #252525;
+            &:hover p{ 
+                color: white;
+             }
+             &:hover h5{ 
+                 color: #c7b299;
+             }
+            h5{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                font-size: 12px;
+                color: #363636;
+                transition: all linear 0.2s;
+                -webkit-transition: all linear 0.2s;
+                -moz-transition: all linear 0.2s;
+                -ms-transition: all linear 0.2s;
+                -o-transition: all linear 0.2s;
+}
+            p{
+                font-size: 12px;
+                line-height: 21px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                color: #555555;
+                transition: all linear 0.2s;
+                -webkit-transition: all linear 0.2s;
+                -moz-transition: all linear 0.2s;
+                -ms-transition: all linear 0.2s;
+                -o-transition: all linear 0.2s;
+                span
+{ 
+                    color: #00bff3;
+                }
+            }
+        }
+        .item_three_inner{ 
+            p{ 
+                font-size: 12px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                color: #555555;
+                a{ 
+                    color: #959595 !important;
+                }
+            }
+            h5{ 
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 300;
+                font-size: 12px;
+                color: #363636;
+            }
+        }
+    }
+   .footer_four{ 
+       .footer_title{ 
+           h3{ 
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            color: white;
+            font-size: 24px;
+           }
+       }
+       .dri_img{ 
+           margin-top: 20px;
+           .dri_two{ 
+               margin-top: 20px;
+           }
+       }
+   }
+}
+/*footer part end*/
